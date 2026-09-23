@@ -4,11 +4,10 @@ mod supplies;
 fn main() {
     println!("Oregon Trail Supply Check 2");
 
-
     let party: u32 = 4;
     let days: u32 = 30;
 
-    let food = supplies::food_needed(party, days);
+    let food = supplies::food_needed(party, days, 3);
 
     report::print_report(party, days, food);
 }
