@@ -2,7 +2,7 @@ mod report;
 mod supplies;
 
 fn main() {
-    println!("Oregon Trail Supply Check");
+    println!("Oregon Trail Supply Check 2");
 
     let party: u32 = 4;
     let days: u32 = 30;
