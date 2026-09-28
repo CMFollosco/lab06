@@ -5,12 +5,12 @@ pub fn print_report(party: u32, days: u32, food: u32) {
     println!("Food:       {} lb", food);
     println!("-------------------------");
 
-	print_summary(party,days);
+	print_summary(party,days,3);
 }
 
-pub fn print_summary(party: u32, days: u32) {
+pub fn print_summary(party: u32, days: u32, food: u32,) {
 
-    let food = crate::supplies::food_needed(party, days);
+    let food = crate::supplies::food_needed(party, days, food);
 
     println!("Summary: {} people need {} lb of food for {} days", party, food, days);
 
