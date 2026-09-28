@@ -1,0 +1,1 @@
+# Card Log (Parnter B)
